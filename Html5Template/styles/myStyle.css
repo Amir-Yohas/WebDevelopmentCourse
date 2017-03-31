@@ -1,0 +1,87 @@
+body {
+    direction: rtl;
+    background-image: url('../images/playstation-pattern.png');
+}
+
+
+article{
+
+    padding-right:600px;
+}
+
+h1{
+
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left:500px;
+    font-size: 60pt;
+    color:#137EFF;
+
+}
+
+#image{
+
+    margin: 0px 950px 0px 0px;
+    height: 0px;
+    width: 0px;
+  
+}
+
+h2{
+
+    /*text-align:center;*/
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 36pt;
+    color:#137EFF;
+
+}
+
+ul{
+
+    font-size: 28pt;
+    color:black;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.contact {
+
+    font-size: 28pt;
+    color:black;
+    padding:10px 10px;
+    border: 2px solid black;
+    background: white;
+    width: 200px;
+    margin-right: 25px;
+    margin-top: 20px;
+   
+}
+
+.bounce{
+    transition:0.3s cubic-bezier(0,1.2,.2,1.5);
+  }
+  
+  .bounce:hover{
+    transform:scale(1.5,1.5);
+  }
+
+#facebook {
+    background-image: url('../images/Icons2.png');
+    display: inline-block;
+    width: 88px;
+    height: 82px;
+    background-position: right;
+
+}
+
+#twitter {
+    background-image: url('../images/Icons2.png');
+    display: inline-block;
+    width: 88px;
+    height: 82px;
+    background-position: left;
+}
+
+

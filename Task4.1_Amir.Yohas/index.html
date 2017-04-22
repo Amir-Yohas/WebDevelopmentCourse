@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div id="container">
+
+        <div class="background"></div>
+        
+        <div class="phrase">
+            לפתח את האדם באמצעות הטכנולוגיה
+        </div>
+
+       <h1>תואר ראשון בטכנולוגיות למידה</h1>
+        <p>הלימודים לתואר ראשון בטכנולוגיות למידה במכון הטכנולוגי חולון מתמקדים בתחומים הבאים:</p>
+        <ul>
+            <li>טכנולגיות ומערכות מידע</li>
+            <li>עיצוב ופיתוח מדיה אינטראקטיבית</li>
+            <li>למידה/הדרכה וטכנולגיות למידה</li>
+        </ul>
+
+        <p>למידע נוסף היכנסו לאתר <a href="http://www.hit.ac.il/telem/overview" target="_blank"><span id="link">HIT</span></a> או השאירו פרטים למטה</p>
+
+        <div class="contact">
+
+
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="AmirYohas@gmail.com">
+
+
+                <label for="FirstName">
+                    שם פרטי:
+                    <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                </label>
+
+                <label for="LastName">
+                    שם משפחה:
+                    <input type="text" id="LastName" placeholder="הכנס את שם המשפחה שלך" />
+                </label>
+
+                <label for="myPhone">
+                    טלפון:
+                    <input type="text" id="myPhone" placeholder="הכנס את מספר הטלפון שלך" />
+                </label>
+
+                <label for="myE-mail">
+                    אימייל:
+                    <input type="text" id="myE-mail" placeholder="הכנס את האימייל שלך" />
+                </label>
+
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" checked /> מוכן לקבל מידע נוסף על התואר לאימייל 
+                </label>
+
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+
+            </form>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>

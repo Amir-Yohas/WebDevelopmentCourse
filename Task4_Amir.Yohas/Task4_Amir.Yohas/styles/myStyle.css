@@ -1,0 +1,90 @@
+body {
+    direction: rtl;
+    background-image: url('../images/Vector_1x-1459286548.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+#container
+{
+    width:1920px;
+    margin:0 auto;
+}
+
+
+    
+.phrase{
+
+    color: #9D3300;
+    text-align: center;
+    font-size: 24pt;
+}
+
+h1{
+
+  color: #9D3300;
+    text-align: center;
+    font-size: 36pt;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    color: #9D3300;
+    text-align: center;
+    font-size: 24pt;
+}
+
+
+ul{
+   
+    margin-right:800px;
+    margin-top: 20px;
+    color: #9D3300;
+    font-size: 24pt;
+}
+
+li{
+    margin-top:10px;
+}
+
+.contact{
+
+    border: solid black 5px;
+    width:1910px;
+    height:130px;
+    margin-top:470px;
+    margin-left:10px;
+    background-color:#19baca; 
+    
+
+    }
+
+label{
+
+    font-size:28pt;
+    color: #9D3300;
+    padding-right:50px;
+}
+
+input[type ='checkbox']{
+  width:50px;
+  height:30px;
+  margin-right:600px;
+  
+}
+
+input[type ='submit']{
+ width:70px;
+ height:35px;
+ font-size:18pt;
+ margin-right:10px;
+}
+
+input[type ='text']{
+    width:265px;
+    height:35px;
+    font-size:18pt;
+}
+
